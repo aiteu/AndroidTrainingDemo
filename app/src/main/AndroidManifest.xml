@@ -8,8 +8,18 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+                 android:name=".base.BaseApplication"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".demo1.Demo1Activity" android:label="@string/title_demo1"/>
+        <activity android:name=".demo1.Demo1FormActivity" android:label="@string/title_demo1_form" />
     </application>
 
 </manifest>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/TextAppearanceNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dip">
+
+        <TextView
+            style="@style/TextAppearanceNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别"/>
+
+
+        <RadioGroup
+            android:id="@+id/gender_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/gender_male"
+                style="@style/TextAppearanceNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="男"/>
+
+            <RadioButton
+                android:id="@+id/gender_female"
+                style="@style/TextAppearanceNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:text="女"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dip">
+
+        <TextView
+            style="@style/TextAppearanceNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爱好"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="羽毛球"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:text="游泳"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:text="跳舞"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:text="唱歌"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dip">
+
+        <TextView
+            style="@style/TextAppearanceNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="婚姻状况"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/marry_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:checked="true"
+            android:textOff="未婚"
+            android:textOn="已婚"
+            app:showText="true"
+            app:switchTextAppearance="@style/TextAppearanceNormal"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="提交"/>
+</LinearLayout>
