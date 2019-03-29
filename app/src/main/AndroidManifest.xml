@@ -8,7 +8,7 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-                 android:name=".base.BaseApplication"
+        android:name=".base.BaseApplication"
         android:theme="@style/AppTheme">
 
         <activity android:name=".main.MainActivity">
@@ -20,6 +20,7 @@
 
         <activity android:name=".demo1.Demo1Activity" android:label="@string/title_demo1"/>
         <activity android:name=".demo1.Demo1FormActivity" android:label="@string/title_demo1_form" />
+
     </application>
 
 </manifest>

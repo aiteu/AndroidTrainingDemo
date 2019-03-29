@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="gv_speed" format="integer"/>
+
+    <declare-styleable name="GameView">
+        <attr name="gv_speed" />
+    </declare-styleable>
+
+
+    <declare-styleable name="GameView2">
+        <attr name="gv_speed" />
+    </declare-styleable>
+</resources>
