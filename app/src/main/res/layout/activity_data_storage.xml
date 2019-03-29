@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        style="@style/TextAppearanceNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray"
+        android:padding="@dimen/padding_normal"
+        android:text="Android中有五大存储，SharedPreferences、文件存储、SQLite数据库方式、内容提供器（Content provider）和网络，使用频率最高的是SharedPreferences。"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/TextAppearanceNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:gravity="top"
+        android:hint="记录一下你的心情"/>
+
+    <Button
+        android:id="@+id/pref_save_btn"
+        style="@style/TextAppearanceNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SharedPreference保存数据"/>
+
+    <Button
+        android:id="@+id/pref_get_btn"
+        style="@style/TextAppearanceNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SharedPreference读取数据"/>
+</LinearLayout>

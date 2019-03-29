@@ -17,6 +17,6 @@ public class MainAdapter extends CommonAdapter<TeachItem> {
 
     @Override
     protected void convert(ViewHolder holder, TeachItem teachItem, int position) {
-        holder.setText(R.id.textView, teachItem.title);
+        holder.setText(R.id.textView, String.format("%d、%s", position+1, teachItem.title));
     }
 }
