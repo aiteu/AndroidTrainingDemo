@@ -13,6 +13,7 @@ import android.widget.RadioGroup;
 import com.aiteu.training.R;
 import com.aiteu.training.base.BaseActionBarActivity;
 import com.aiteu.training.demo1.biz.Person;
+import com.aiteu.training.utils.Opts;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,8 +29,10 @@ public class Demo1FormActivity extends BaseActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mPerson = new Person();
-        mLikeList = new ArrayList<>(0);
+        mPerson = (Person) getIntent().getSerializableExtra("person");
+        if(mPerson == null) {
+            mPerson = new Person();
+        }
         setContentView(R.layout.activity_demo1_form);
         findViewById(R.id.button2).setOnClickListener(this);
         mNameEdit = findViewById(R.id.et_name);
@@ -75,6 +78,35 @@ public class Demo1FormActivity extends BaseActionBarActivity {
             }
         });
         mMarrySwitcher = (SwitchCompat)findViewById(R.id.marry_switcher);
+        showPerson();
+    }
+
+    private void showPerson(){
+        if(!Opts.isEmpty(mPerson.name)) {
+            mNameEdit.setText(mPerson.name);
+        }
+        if("女".equals(mPerson.gender)) {
+            mGenderGroup.check(R.id.gender_female);
+        }else{
+            mGenderGroup.check(R.id.gender_male);
+        }
+        mLikeList = new ArrayList<>(0);
+        if(!Opts.isEmpty(mPerson.likes)) {
+            for(int i=0;i < mPerson.likes.length;i++) {
+                String value = mPerson.likes[i];
+                mLikeList.add(value);
+                if(value.equals("羽毛球")) {
+                    ((CheckBox)findViewById(R.id.checkbox1)).setChecked(true);
+                }else if(value.equals("游泳")) {
+                    ((CheckBox)findViewById(R.id.checkbox2)).setChecked(true);
+                }else if(value.equals("跳舞")) {
+                    ((CheckBox)findViewById(R.id.checkbox3)).setChecked(true);
+                }else if(value.equals("唱歌")) {
+                    ((CheckBox)findViewById(R.id.checkbox4)).setChecked(true);
+                }
+            }
+        }
+        mMarrySwitcher.setChecked(mPerson.isMarried);
     }
 
     @Override
