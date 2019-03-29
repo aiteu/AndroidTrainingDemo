@@ -94,7 +94,6 @@ public class Demo1FormActivity extends BaseActionBarActivity {
         if(!Opts.isEmpty(mPerson.likes)) {
             for(int i=0;i < mPerson.likes.length;i++) {
                 String value = mPerson.likes[i];
-                mLikeList.add(value);
                 if(value.equals("羽毛球")) {
                     ((CheckBox)findViewById(R.id.checkbox1)).setChecked(true);
                 }else if(value.equals("游泳")) {
