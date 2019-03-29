@@ -18,8 +18,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".demo1.Demo1Activity" android:label="@string/title_demo1"/>
-        <activity android:name=".demo1.Demo1FormActivity" android:label="@string/title_demo1_form" />
+        <activity android:name=".demo1.Demo1Activity"/>
+        <activity android:name=".demo1.Demo1FormActivity"/>
+        <activity android:name=".demo2.DataStorageActivity"/>
 
     </application>
 

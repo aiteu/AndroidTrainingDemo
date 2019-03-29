@@ -59,7 +59,9 @@ public class MainActivity extends BaseActivity implements MultiItemTypeAdapter.O
         TeachItem item = mTeachItems.get(position);
         Class clazz = Opts.optClass(item.className);
         if(clazz != null) {
-            startActivity(new Intent(getContext(), clazz));
+            Intent intent = new Intent(getContext(), clazz);
+            intent.putExtra("title", item.title);
+            startActivity(intent);
         }
     }
 

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <teachs>
-    <item title="１、常用的数据传递方式" class="com.aiteu.training.demo1.Demo1Activity" />
+    <item title="常用的数据传递方式" class="com.aiteu.training.demo1.Demo1Activity" />
+    <item title="Android数据存储" class="com.aiteu.training.demo2.DataStorageActivity" />
 </teachs>

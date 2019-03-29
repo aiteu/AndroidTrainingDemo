@@ -1,5 +1,7 @@
 package com.aiteu.training.utils;
 
+import android.text.TextUtils;
+
 import java.util.List;
 
 public final class Opts {
@@ -11,6 +13,13 @@ public final class Opts {
     public static boolean isEmpty(String[] array){
         if(isNull(array)) return true;
         return (array.length == 0);
+    }
+
+    public static boolean isEmpty(String text){
+        if(isNull(text) || TextUtils.isEmpty(text)) {
+            return true;
+        }
+        return false;
     }
 
     public static boolean isNull(Object obj){

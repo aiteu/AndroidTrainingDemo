@@ -3,6 +3,8 @@ package com.aiteu.training.base;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.aiteu.training.utils.Opts;
+
 public class BaseActionBarActivity extends BaseActivity {
 
     @Override
@@ -10,6 +12,10 @@ public class BaseActionBarActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         if(getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            String title = getIntent().getStringExtra("title");
+            if(!Opts.isEmpty(title)) {
+                getSupportActionBar().setTitle(title);
+            }
         }
     }
 
