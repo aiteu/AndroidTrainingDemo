@@ -7,6 +7,7 @@ import com.aiteu.training.R;
 import com.aiteu.training.base.BaseApplication;
 import com.aiteu.training.base.Callback;
 import com.aiteu.training.main.biz.TeachItem;
+import com.aiteu.training.utils.LogUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -88,8 +89,8 @@ public class MainDataSources {
                 String tagName = xml.getName();
                 if (tagName.equals("item")) {
                     TeachItem item = new TeachItem();
-                    item.title = xml.getAttributeValue(0);
-                    item.className = xml.getAttributeValue(1);
+                    item.title = xml.getAttributeValue(null, "title");
+                    item.className = xml.getAttributeValue(null, "class");
                     mTeachItems.add(item);
                 }
             }

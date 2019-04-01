@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.aiteu.training.R;
 import com.aiteu.training.main.biz.TeachItem;
+import com.aiteu.training.utils.LogUtils;
 import com.zhy.adapter.recyclerview.CommonAdapter;
 import com.zhy.adapter.recyclerview.base.ViewHolder;
 
