@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_end_color"
+            android:padding="@dimen/padding_normal"
+            android:text="通过绑定手机号的流程，体验Activity和fragment之间的数据交换"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/phone_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal" />
+
+        <Button
+            android:id="@+id/bind_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绑定手机号" />
+
+    </LinearLayout>
+</FrameLayout>

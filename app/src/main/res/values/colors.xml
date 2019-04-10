@@ -9,4 +9,6 @@
     <color name="edit_hint_color">#878787</color>
     <color name="text_color">#323232</color>
 
+    <color name="white">#ffffff</color>
+
 </resources>

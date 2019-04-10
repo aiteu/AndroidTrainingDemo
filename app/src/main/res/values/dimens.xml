@@ -2,5 +2,5 @@
 <resources>
     <dimen name="text_size_medium">16sp</dimen>
 
-    <dimen name="padding_normal">8dip</dimen>
+    <dimen name="padding_normal">10dip</dimen>
 </resources>
