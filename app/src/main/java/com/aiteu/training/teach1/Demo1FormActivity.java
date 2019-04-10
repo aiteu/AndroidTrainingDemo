@@ -1,4 +1,4 @@
-package com.aiteu.training.demo1;
+package com.aiteu.training.teach1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,6 @@ import android.widget.RadioGroup;
 
 import com.aiteu.training.R;
 import com.aiteu.training.base.BaseActionBarActivity;
-import com.aiteu.training.demo1.biz.Person;
 import com.aiteu.training.utils.Opts;
 
 import java.util.ArrayList;

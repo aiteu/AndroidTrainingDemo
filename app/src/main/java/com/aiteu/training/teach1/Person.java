@@ -1,4 +1,4 @@
-package com.aiteu.training.demo1.biz;
+package com.aiteu.training.teach1;
 
 import com.aiteu.training.utils.Opts;
 

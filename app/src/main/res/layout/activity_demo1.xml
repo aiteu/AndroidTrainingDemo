@@ -20,7 +20,7 @@
         android:padding="15dip"
         android:layout_marginTop="10dip"/>
 
-    <com.aiteu.training.demo1.GameView
+    <com.aiteu.training.teach1.GameView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         demo:gv_speed="3"/>

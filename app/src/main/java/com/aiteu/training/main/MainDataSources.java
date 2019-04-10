@@ -3,11 +3,9 @@ package com.aiteu.training.main;
 import android.content.Context;
 import android.content.res.XmlResourceParser;
 
-import com.aiteu.training.R;
 import com.aiteu.training.base.BaseApplication;
 import com.aiteu.training.base.Callback;
 import com.aiteu.training.main.biz.TeachItem;
-import com.aiteu.training.utils.LogUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -30,6 +28,7 @@ public class MainDataSources {
     private static MainDataSources sInstance = null;
 
     private List<TeachItem> mTeachItems;
+    private int mXmlId;
 
     public static MainDataSources create(){
         synchronized (MainDataSources.class) {
@@ -44,7 +43,8 @@ public class MainDataSources {
         mTeachItems = new ArrayList<>(0);
     }
 
-    public void load(final Callback callback){
+    public void load(int xmlId, final Callback callback){
+        this.mXmlId = xmlId;
         mTeachItems.clear();
         Observable.create(new ObservableOnSubscribe<List<TeachItem>>() {
             @Override
@@ -81,7 +81,7 @@ public class MainDataSources {
 
     private void parseXml() throws IOException, XmlPullParserException {
         Context context = BaseApplication.getApp();
-        XmlResourceParser xml = context.getResources().getXml(R.xml.teach_list);
+        XmlResourceParser xml = context.getResources().getXml(mXmlId);
         xml.next();
         int eventType = xml.getEventType();
         while (eventType != XmlPullParser.END_DOCUMENT) {

@@ -1,4 +1,4 @@
-package com.aiteu.training.demo2;
+package com.aiteu.training.teach1;
 
 import android.content.Context;
 import android.content.SharedPreferences;

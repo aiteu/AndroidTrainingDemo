@@ -1,4 +1,4 @@
-package com.aiteu.training.demo1;
+package com.aiteu.training.teach1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,6 @@ import android.widget.TextView;
 
 import com.aiteu.training.R;
 import com.aiteu.training.base.BaseActionBarActivity;
-import com.aiteu.training.demo1.biz.Person;
 
 public class Demo1Activity extends BaseActionBarActivity {
 

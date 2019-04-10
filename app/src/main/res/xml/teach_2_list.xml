@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<teachs>
+    <item title="观察Activity、Fragment的生命周期" class="com.aiteu.training.teach2.LifecycleActivity" />
+</teachs>
