@@ -37,4 +37,12 @@ public final class Opts {
     public static String opt(String str){
         return Opts.isNull(str) ? "" : str;
     }
+
+    public static int optInt(String intValue){
+        try{
+            return Integer.parseInt(intValue);
+        }catch(NumberFormatException e){
+            return 0;
+        }
+    }
 }

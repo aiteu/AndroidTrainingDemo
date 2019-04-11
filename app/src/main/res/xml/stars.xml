@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<star-list>
+    <star
+        name="苏宇舟"
+        image_url="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f9006d54be8f8c54f7decd7d5b404690/b219ebc4b74543a9d477517614178a82b901141f.jpg"
+        width="236"
+        height="323"/>
+    <star
+        name="陈伟霆"
+        image_url="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=2dea904982d4b31ce4319ce9e6bf4c1a/622762d0f703918fc7ebb6c0583d269759eec486.jpg"
+        width="379"
+        height="474" />
+    <star name="鹿晗"
+        image_url="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=bf0a95429e2bd40756cadbaf1ae0f534/0b55b319ebc4b745f587bc7cc6fc1e178a82154c.jpg"
+        width="379"
+        height="474" />
+    <star name="刘德华"
+        image_url="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=4c137a6a032442a7ba03f5f7b02ac62e/6159252dd42a2834e6d976e257b5c9ea14cebfd8.jpg"
+        width="379"
+        height="474" />
+    <star name="刘诗诗"
+        image_url="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=72b0d8b942a7d933aba5ec21cc22ba76/242dd42a2834349b7e388c28c9ea15ce36d3be65.jpg"
+        width="379"
+        height="474" />
+    <star name="黄子韬"
+        image_url="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=1d766197261f95cab2f89ae4a87e145b/b7fd5266d01609242164c6f2d70735fae7cd3491.jpg"
+        width="379"
+        height="474" />
+    <star name="华晨宇"
+        image_url="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/h%3D452/sign=ae660b8eb0014a909e3e47b89b773971/42166d224f4a20a4f65288fb99529822720ed0ba.jpg"
+        width="379"
+        height="474" />
+</star-list>

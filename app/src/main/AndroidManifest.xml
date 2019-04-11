@@ -27,6 +27,7 @@
         <activity android:name=".teach1.DataStorageActivity"/>
         <activity android:name=".teach2.LifecycleActivity" />
         <activity android:name=".teach2.BindPhoneActivity" />
+        <activity android:name=".teach2.MultiListActivity" />
 
     </application>
 
