@@ -62,6 +62,7 @@ public class BindPhoneActivity extends BaseActionBarActivity implements PhoneCal
         mValidPhoneFragment.setArguments(bundle);
         mValidPhoneFragment.addCallback(this);
         FragmentManager fm = getSupportFragmentManager();
+        fm.popBackStack();
         FragmentTransaction tr = fm.beginTransaction();
         if(mValidPhoneFragment.isAdded()) {
             tr.show(mValidPhoneFragment);
@@ -77,13 +78,13 @@ public class BindPhoneActivity extends BaseActionBarActivity implements PhoneCal
         mPhoneTxt.setText(phone);
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction tr = fm.beginTransaction();
+        fm.popBackStack(); //pop fragment
         if(mValidPhoneFragment.isAdded()) {
             tr.remove(mValidPhoneFragment);
         }
         if(mFillPhoneFragment.isAdded()) {
             tr.remove(mFillPhoneFragment);
         }
-        tr.addToBackStack(null);
         tr.commit();
     }
 }
