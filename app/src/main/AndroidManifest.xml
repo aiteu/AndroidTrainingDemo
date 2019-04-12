@@ -28,6 +28,7 @@
         <activity android:name=".teach2.LifecycleActivity" />
         <activity android:name=".teach2.BindPhoneActivity" />
         <activity android:name=".teach2.MultiListActivity" />
+        <activity android:name=".teach2.CustomViewGroupActivity" />
 
     </application>
 

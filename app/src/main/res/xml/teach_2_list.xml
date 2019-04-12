@@ -3,4 +3,5 @@
     <item title="观察Activity、Fragment的生命周期" class="com.aiteu.training.teach2.LifecycleActivity" />
     <item title="Activity和Fragment的交互" class="com.aiteu.training.teach2.BindPhoneActivity" />
     <item title="RecyclerView多样式" class="com.aiteu.training.teach2.MultiListActivity" />
+    <item title="自定义布局的实现" class="com.aiteu.training.teach2.CustomViewGroupActivity" />
 </teachs>

@@ -11,4 +11,8 @@
     <declare-styleable name="GameView2">
         <attr name="gv_speed" />
     </declare-styleable>
+
+    <declare-styleable name="CircleLayout">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
 </resources>
