@@ -27,7 +27,11 @@
         width="379"
         height="474" />
     <star name="华晨宇"
-        image_url="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/h%3D452/sign=ae660b8eb0014a909e3e47b89b773971/42166d224f4a20a4f65288fb99529822720ed0ba.jpg"
+        image_url="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=a98c1c60d533c895b2739029b07a1895/377adab44aed2e732d7ceddb8b01a18b86d6fab4.jpg"
         width="379"
         height="474" />
+    <star name="贾玲"
+        image_url="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=8244b02f3187e950561afb3e71513826/738b4710b912c8fcf78a4921f7039245d78821e4.jpg"
+        width="379"
+        height="474"/>
 </star-list>

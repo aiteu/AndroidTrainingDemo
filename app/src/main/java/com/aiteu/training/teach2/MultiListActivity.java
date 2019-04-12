@@ -25,7 +25,7 @@ public class MultiListActivity extends BaseActionBarActivity {
                 if(checkedId == R.id.radioButton) {
                     showFragment(PureRecyclerFragment.class);
                 }else if(checkedId == R.id.radioButton2) {
-
+                    showFragment(GridRecyclerFragment.class);
                 }else if(checkedId == R.id.radioButton3) {
 
                 }else if(checkedId == R.id.radioButton4) {
