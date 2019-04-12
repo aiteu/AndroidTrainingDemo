@@ -45,4 +45,14 @@ public final class Opts {
             return 0;
         }
     }
+
+    public static boolean isEquals(String...params){
+        String first = params[0];
+        for(int i=1;i < params.length;i++){
+            if(!first.equals(params[i])){
+                return false;
+            }
+        }
+        return true;
+    }
 }

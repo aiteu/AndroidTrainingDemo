@@ -98,6 +98,7 @@ public class Teach2Model {
                     item.image.url = xml.getAttributeValue(null, "image_url");
                     item.image.w = Opts.optInt(xml.getAttributeValue(null, "width"));
                     item.image.h = Opts.optInt(xml.getAttributeValue(null, "height"));
+                    item.type = xml.getAttributeValue(null, "type");
                     mStarList.add(item);
                 }
             }

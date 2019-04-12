@@ -48,7 +48,9 @@ public class PureRecyclerFragment extends Fragment {
             mListView.removeItemDecoration(mItemDecoration);
         }
         mItemDecoration = createItemDecoration();
-        mListView.addItemDecoration(mItemDecoration);
+        if(mItemDecoration != null) {
+            mListView.addItemDecoration(mItemDecoration);
+        }
         mDataList = Teach2Model.create().getStarList();
         mAdapter = createAdapter();
         mListView.setAdapter(mAdapter);
@@ -65,6 +67,10 @@ public class PureRecyclerFragment extends Fragment {
                 }
             });
         }
+    }
+
+    public List getDataList() {
+        return mDataList;
     }
 
     protected RecyclerView.LayoutManager createLayoutManager(){
