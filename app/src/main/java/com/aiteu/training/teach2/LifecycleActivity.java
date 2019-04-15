@@ -23,7 +23,7 @@ public class LifecycleActivity extends BaseActionBarActivity {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction tr = fm.beginTransaction();
         tr.add(R.id.container, fragment, "lifecycle");
-//        tr.addToBackStack("back"); //can back
+//        tr.addToBackStack(null); //can back
         tr.commit();
     }
 
