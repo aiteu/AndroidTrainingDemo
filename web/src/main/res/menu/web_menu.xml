@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/view_source" android:title="View Source Code" />
+    <item android:title="Normal Links">
+        <menu>
+            <item android:id="@+id/tb_cart_href" android:title="Tb Cart Link" />
+            <item android:id="@+id/pinduoduo_href" android:title="Pinduoduo Link" />
+            <item android:id="@+id/edit_href" android:title="Edit Web Link" />
+        </menu>
+    </item>
+    <item android:id="@+id/edit_js" android:title="Edit Injection JS" />
 </menu>
