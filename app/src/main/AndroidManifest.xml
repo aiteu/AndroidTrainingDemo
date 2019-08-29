@@ -31,6 +31,9 @@
         <activity android:name=".teach2.BindPhoneActivity" />
         <activity android:name=".teach2.MultiListActivity" />
         <activity android:name=".teach2.CustomViewGroupActivity" />
+        <activity android:name=".teach4.Teach4Activity" />
+        <activity android:name=".teach4.ThreadDemoActivity" />
+        <activity android:name=".teach4.ThreadPollDemoActivity" />
     </application>
 
 </manifest>
