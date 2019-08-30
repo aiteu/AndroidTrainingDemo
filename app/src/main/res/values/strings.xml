@@ -4,4 +4,5 @@
     <string name="title_home">记事本</string>
     <string name="title_dashboard">添加</string>
     <string name="title_notifications">设置</string>
+    <string name="command_list">A:我的名字\nB:我的爱好</string>
 </resources>
