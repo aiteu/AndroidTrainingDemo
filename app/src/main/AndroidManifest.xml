@@ -34,6 +34,7 @@
         <activity android:name=".teach4.Teach4Activity" />
         <activity android:name=".teach4.ThreadDemoActivity" />
         <activity android:name=".teach4.ThreadPollDemoActivity" />
+        <activity android:name=".teach4.AsyncTaskDemoActivity" />
     </application>
 
 </manifest>

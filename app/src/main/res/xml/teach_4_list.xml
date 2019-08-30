@@ -2,4 +2,5 @@
 <teachs>
     <item title="Thread线程－倒计时" class="com.aiteu.training.teach4.ThreadDemoActivity" />
     <item title="Thread线程池－点钞机" class="com.aiteu.training.teach4.ThreadPollDemoActivity" />
+    <item title="AsyncTask异步任务－模拟下载" class="com.aiteu.training.teach4.AsyncTaskDemoActivity" />
 </teachs>
