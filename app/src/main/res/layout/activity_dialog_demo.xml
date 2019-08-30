@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/alert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提示框" />
+
+    <Button
+        android:id="@+id/loading_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载符框" />
+
+    <Button
+        android:id="@+id/pop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="气泡框" />
+</LinearLayout>

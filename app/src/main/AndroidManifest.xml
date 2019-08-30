@@ -38,6 +38,7 @@
         <activity android:name=".teach4.AsyncTaskDemoActivity" />
         <activity android:name=".teach4.MessageDemoActivity" />
         <activity android:name=".teach4.PermissionDemoActivity" />
+        <activity android:name=".teach4.DialogDemoActivity" />
     </application>
 
 </manifest>
